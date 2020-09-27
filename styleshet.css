@@ -1,0 +1,1962 @@
+                                    html {
+                                        margin: 0 auto;
+                                        padding: 0 auto;
+                                        background-image: url("images/background-mobil.jpg");
+                                    }
+                                    
+                                    *,
+                                    *:after,
+                                    *:before {
+                                        -webkit-box-sizing: border-box;
+                                        -moz-box-sizing: border-box;
+                                        box-sizing: border-box;
+                                    }
+                                    
+                                    body {
+                                        max-width: 1364px;
+                                        margin: 0 auto;
+                                        padding: 0 auto;
+                                        background-image: url("images/background-mobil.jpg");
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        -webkit-background-size: cover;
+                                        -moz-background-size: cover;
+                                        -o-background-size: cover;
+                                    }
+                                    
+                                    img {
+                                        display: block;
+                                        width: 100%;
+                                        height: auto;
+                                    }
+                                    
+                                    h1,
+                                    h2,
+                                    h3 {
+                                        font-family: Poppins, georgia, "sans-serif";
+                                        line-height: 1.2em;
+                                    }
+                                    
+                                    h4,
+                                    h5,
+                                    h6 {
+                                        font-family: lato, georgia, "sans-serif";
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    h6 {
+                                        margin: -7px 0px 20px 0px;
+                                    }
+                                    
+                                    h3 {
+                                        font-weight: 400;
+                                        font-size: 17px;
+                                    }
+                                    
+                                    h2 {
+                                        font-weight: 400;
+                                        font-size: 22px;
+                                    }
+                                    
+                                    h1 {
+                                        font-size: 20px;
+                                        letter-spacing: 3px;
+                                        padding: 0px;
+                                        font-weight: 700;
+                                        color: white;
+                                        font-family: poppins;
+                                    }
+                                    
+                                    p {
+                                        font-weight: 300;
+                                        font-size: 16px;
+                                        font-family: lato;
+                                        line-height: 1.6em;
+                                        text-align: justify;
+                                    }
+                                    
+                                    .span {
+                                        color: white;
+                                        font-size: 20px;
+                                    }
+                                    
+                                    .quotes {
+                                        max-width: 800px;
+                                        font-size: 17px;
+                                        color: #2B181A;
+                                        justify-content: center;
+                                        text-align: justify;
+                                        text-align: center;
+                                        padding: 10px 10px;
+                                        margin: 0px auto;
+                                    }
+                                    
+                                    .quotes i {
+                                        padding: 0px 5px;
+                                        color: #ff5955;
+                                        font-size: 14px;
+                                    }
+                                    
+                                    .quotes h5 {
+                                        font-style: italic;
+                                        margin-top: 5px;
+                                        padding-left: 120px;
+                                    }
+                                    
+                                    a {
+                                        color: #3344dd;
+                                        padding: 0px 2px;
+                                        font-size: 16px;
+                                        font-family: Lato, georgia, "sans-serif";
+                                        list-style: none;
+                                    }
+                                    
+                                    li {
+                                        list-style: none;
+                                        font-family: lato, georgia, "sans-serif";
+                                        font-size: 17px;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    a:active {
+                                        color: #ff5955;
+                                        font-weight: 500;
+                                    }
+                                    
+                                    .logo {
+                                        display: block;
+                                        max-width: 17%;
+                                        height: auto;
+                                    }
+                                    /*___________________button_____________________*/
+                                    
+                                    .card-btn,
+                                    .btn-newsletter,
+                                    .btn-content,
+                                    .btn-contact {
+                                        background-color: #ff5955;
+                                        border: none;
+                                        color: white;
+                                        padding: 10px 40px;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        display: inline-block;
+                                        font-size: 16px;
+                                        outline: none;
+                                        margin: 20px auto;
+                                        -webkit-box-shadow: 0 6px 4px -4px black;
+                                        -moz-box-shadow: 0 6px 4px -4px black;
+                                        box-shadow: 0 6px 4px -4px black;
+                                    }
+                                    
+                                    .btn-newsletter {
+                                        padding: 10px 100px;
+                                        margin-top: -5px;
+                                    }
+                                    
+                                    .btn-content {
+                                        padding: 10px 20px;
+                                        margin-top: 0px;
+                                    }
+                                    
+                                    .card-btn:hover,
+                                    .btn-newsletter:hover,
+                                    .btn-content:hover,
+                                    .btn-contact:hover {
+                                        background-color: #af3937;
+                                    }
+                                    /*___________________BACK-TO TOP______________________*/
+                                    
+                                    #back-to-top {
+                                        width: 37px;
+                                        height: 37px;
+                                        position: fixed;
+                                        bottom: 30px;
+                                        right: 20px;
+                                        z-index: 99999;
+                                        padding: -5px 5px 7px 5px;
+                                        text-align: center;
+                                        cursor: pointer;
+                                        border-radius: 50%;
+                                        text-decoration: none;
+                                        font-size: 30px;
+                                        color: #ff5955;
+                                    }
+                                    
+                                    #back-to-top:hover {
+                                        color: rgb(231, 196, 160);
+                                    }
+                                    /*--------loading-----------------------------*/
+                                    
+                                    .pre-loader {
+                                        display: flex;
+                                        justify-content: center;
+                                        margin: 0 auto;
+                                    }
+                                    
+                                    .loading {
+                                        animation: rotation 2s infinite linear;
+                                        width: 100px;
+                                        height: 100px;
+                                        text-align: center;
+                                        position: absolute;
+                                        margin-top: 100px;
+                                    }
+                                    
+                                    @keyframes rotation {
+                                        from {
+                                            transform: rotate(0deg);
+                                        }
+                                        to {
+                                            transform: rotate(359deg);
+                                        }
+                                    }
+                                    /*-----------header-------*/
+                                    
+                                    .header-content {
+                                        max-width: 1360px;
+                                        width: 100%;
+                                        height: 100px;
+                                        margin: 0 auto;
+                                        align-content: center;
+                                        top: 0;
+                                        z-index: 2;
+                                        position: fixed;
+                                        background-image: linear-gradient(to bottom, #000000, #1a0307, #28050a, #350407, #441414);
+                                    }
+                                    /*-----------media-icon-links-------*/
+                                    
+                                    .media-icon-link {
+                                        max-width: 1360px;
+                                        display: flex;
+                                        flex-direction: row;
+                                        padding: 5px;
+                                        justify-content: flex-end;
+                                        margin: 0 auto;
+                                        opacity: 80%;
+                                    }
+                                    
+                                    .media-icon-link a {
+                                        font-size: 14px;
+                                        color: white;
+                                        font-weight: 400;
+                                        padding: 0px 10px;
+                                        font-family: poppins;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .media-icon-link a span {
+                                        padding: 0px 7px;
+                                    }
+                                    /*-----------navigation-------*/
+                                    
+                                    .navigation-container {
+                                        margin: 0 auto;
+                                        color: white;
+                                        padding: 10px 5px;
+                                    }
+                                    
+                                    .top-nav {
+                                        display: flex;
+                                        flex-direction: row;
+                                        overflow: hidden;
+                                        position: relative;
+                                        align-items: center;
+                                        font-size: 16px;
+                                        font-family: poppins;
+                                    }
+                                    
+                                    .logo-tittle-nasa {
+                                        font-size: 16px;
+                                        color: rgb(108, 108, 255);
+                                        margin-left: 3px;
+                                        font-family: lato;
+                                    }
+                                    
+                                    .logo-tittle-curiosity {
+                                        font-size: 18px;
+                                        font-weight: 400;
+                                        letter-spacing: 1px;
+                                        margin-left: 3px;
+                                        font-family: poppins;
+                                        color: white;
+                                    }
+                                    
+                                    .top-nav .icon-menu {
+                                        text-decoration: none;
+                                        display: block;
+                                        margin: 12px 5px;
+                                        position: absolute;
+                                        right: 0;
+                                        top: 0;
+                                    }
+                                    
+                                    .top-nav .icon-menu i {
+                                        color: #ff5955;
+                                        font-size: 28px;
+                                        font-weight: 600;
+                                        box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+                                    }
+                                    
+                                    #navbar {
+                                        width: 300px;
+                                        height: 500px;
+                                        background-image: linear-gradient(to bottom, #000000, #1a0307, #28050a, #350407, #430000);
+                                        margin: 10px -5px;
+                                        display: none;
+                                        z-index: 1;
+                                        float: right;
+                                    }
+                                    
+                                    #navbar a {
+                                        display: flex;
+                                        flex-direction: column;
+                                        font-size: 17px;
+                                        text-decoration: none;
+                                        padding: 10px 60px;
+                                        font-family: poppins;
+                                        margin-top: 10px;
+                                        color: white;
+                                    }
+                                    
+                                    #navbar a:hover {
+                                        color: red;
+                                    }
+                                    
+                                    #navbar a:active {
+                                        color: red;
+                                    }
+                                    /*----------------page-next----------------*/
+                                    
+                                    .page-next {
+                                        max-width: 1360px;
+                                        width: 100%;
+                                        height: 30px;
+                                        display: flex;
+                                        top: 100px;
+                                        z-index: 1;
+                                        flex-direction: row;
+                                        position: fixed;
+                                        background-color: #F3EED9;
+                                        text-align: center;
+                                        padding: 5px;
+                                        box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+                                    }
+                                    
+                                    .page-next a {
+                                        text-decoration: none;
+                                        padding: 0px 10px;
+                                    }
+                                    
+                                    .back-home {
+                                        color: black;
+                                    }
+                                    
+                                    .active {
+                                        color: #f21137;
+                                    }
+                                    
+                                    .page {
+                                        max-width: 1360px;
+                                    }
+                                    /*----------------page-name----------------*/
+                                    
+                                    #page-name {
+                                        max-width: 1360px;
+                                        height: 200px;
+                                        margin-top: 130px;
+                                        background: linear-gradient(0deg, rgba(105, 105, 105, 0.3), rgba(24, 14, 20, 0.3)), url(images/back_page_name.jpg);
+                                        background-size: cover;
+                                        background-blend-mode: multiply;
+                                        background-position: center center;
+                                        box-shadow: inset 0 0 0 3000px rgba(80, 14, 14, 0.3);
+                                        text-align: center;
+                                    }
+                                    
+                                    .page-name-flex {
+                                        display: flex;
+                                        flex-direction: column;
+                                        text-align: center;
+                                    }
+                                    
+                                    #page-name h1 {
+                                        padding-top: 30px;
+                                    }
+                                    
+                                    .page-name-flex a {
+                                        letter-spacing: 1px;
+                                        font-family: poppins;
+                                        font-weight: 400;
+                                        line-height: 2.2em;
+                                        color: #fa9c9a;
+                                        text-align: center;
+                                    }
+                                    /*---------home-page------*/
+                                    
+                                    .index {
+                                        max-width: 1024px;
+                                        margin: 0px auto;
+                                        padding: 0px auto;
+                                        justify-content: center;
+                                    }
+                                    /*___________________banner______________________*/
+                                    
+                                    #banner {
+                                        max-width: 1024px;
+                                        padding: 0px auto;
+                                        margin: 0px auto 100px auto;
+                                    }
+                                    
+                                    #banner:after {
+                                        width: 100%;
+                                        content: "";
+                                        position: absolute;
+                                        margin: -120px 0px;
+                                        padding: 0px auto;
+                                        height: 120px;
+                                        background-image: linear-gradient(to top, #260101, #2b0805, #310d08, #37110b, #3d160d);
+                                        -khtml-opacity: .6;
+                                        -moz-opacity: .6;
+                                        opacity: 0.6;
+                                        word-break: break-all;
+                                        word-wrap: break-word;
+                                    }
+                                    
+                                    #banner>* {
+                                        z-index: 1;
+                                    }
+                                    
+                                    .mars-video {
+                                        left: 0px;
+                                        margin-top: 100px;
+                                    }
+                                    
+                                    #text-banner {
+                                        display: flex;
+                                        flex-direction: column;
+                                        position: relative;
+                                        margin-top: -120px;
+                                        text-align: center;
+                                        align-items: center;
+                                    }
+                                    
+                                    .arrow-scroll {
+                                        width: 5%;
+                                        text-align: center;
+                                        margin-top: -7px;
+                                    }
+                                    
+                                    .border-white {
+                                        height: 2px;
+                                        width: 90px;
+                                        padding-right: 5px;
+                                    }
+                                    
+                                    .text-banner-under h4 {
+                                        color: white;
+                                    }
+                                    
+                                    .text-banner-under {
+                                        margin-top: -30px;
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                    }
+                                    
+                                    #text-banner h6 {
+                                        display: none;
+                                        /*!----IMPORTANT HIDE MOBIL*-----*/
+                                    }
+                                    /*___________________main/index______________________*/
+                                    
+                                    .index {
+                                        display: flex;
+                                        flex-direction: column;
+                                        max-width: 1360px;
+                                        margin: -90px 0px;
+                                        padding: 0px 0px;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    /*__________________main/intro______________________*/
+                                    
+                                    .intro-index {
+                                        max-width: 760px;
+                                        padding: 20px 20px 30px 20px;
+                                        margin: 0px auto;
+                                        background-color: #FFF3F1;
+                                        text-align: center;
+                                    }
+                                    
+                                    .img-intro-index {
+                                        width: 100px;
+                                        height: 100px;
+                                        float: right;
+                                        margin: 10px 0px 0px 5px;
+                                        -webkit-transform: rotate(11deg);
+                                        -moz-transform: rotate(11deg);
+                                        -ms-transform: rotate(11deg);
+                                        -o-transform: rotate(11deg);
+                                        transform: rotate(11deg);
+                                    }
+                                    
+                                    .intro-index h2 {
+                                        margin-top: -15px;
+                                        text-align: left;
+                                        display: flex;
+                                        flex-wrap: nowrap;
+                                    }
+                                    
+                                    .intro-index h4 {
+                                        text-align: left;
+                                    }
+                                    
+                                    .intro-index p {
+                                        padding-bottom: 10px;
+                                    }
+                                    /*-----------section-index---------*/
+                                    
+                                    .section-index {
+                                        max-width: 1024px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-content: center;
+                                        margin: 0px auto;
+                                        padding: 0px auto;
+                                    }
+                                    /*-----------section-timeline------*/
+                                    
+                                    .section-style {
+                                        max-width: 1024px;
+                                        padding-top: 10px;
+                                        text-align: center;
+                                        margin: 0px auto;
+                                    }
+                                    
+                                    .section-style h2 {
+                                        margin-top: -10px;
+                                    }
+                                    
+                                    .section-timeline {
+                                        max-width: 1024px;
+                                        background-color: rgb(255, 185, 153);
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin: 0px auto;
+                                        padding: 0px auto;
+                                        text-align: center;
+                                    }
+                                    
+                                    .timeline-text {
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin: 0px auto;
+                                        text-align: center;
+                                    }
+                                    
+                                    .timeline-row {
+                                        display: flex;
+                                        flex-direction: row;
+                                        text-align: center;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                    }
+                                    
+                                    .timeline-row h3 {
+                                        padding-left: 30px;
+                                        font-weight: 600;
+                                    }
+                                    /*-----------section-row-data------*/
+                                    
+                                    .section-row-data {
+                                        background-color: #FFF3F1;
+                                        padding: 10px;
+                                        margin: 0px auto;
+                                        padding-bottom: 40px;
+                                        align-items: center;
+                                    }
+                                    
+                                    .row-img {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        padding: 10px;
+                                        align-items: center;
+                                        background-color: #000000;
+                                        justify-content: center;
+                                        margin: -5px -10px 0px -10px;
+                                    }
+                                    
+                                    .row-img img {
+                                        max-width: 30%;
+                                        padding: 0px 12px;
+                                    }
+                                    /*------section-weather------*/
+                                    
+                                    .section-weather {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-around;
+                                        align-items: center;
+                                        padding-top: 30px;
+                                        padding-bottom: 30px;
+                                    }
+                                    
+                                    .section-weather-data {
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        padding: 0px 10px;
+                                    }
+                                    
+                                    .section-weather h2 {
+                                        color: white;
+                                        letter-spacing: 2px;
+                                    }
+                                    
+                                    .section-weather p {
+                                        max-width: 500px;
+                                        color: white;
+                                        font-weight: 300;
+                                        padding: 0px 15px;
+                                        text-align: center;
+                                        margin-bottom: 40px;
+                                    }
+                                    
+                                    .data-weather {
+                                        margin-bottom: -20px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        padding: 10px;
+                                        text-align: center;
+                                    }
+                                    
+                                    .section-weather h4 {
+                                        color: white;
+                                        margin-top: -20px;
+                                        text-align: center;
+                                    }
+                                    /*---------section-facts--------*/
+                                    
+                                    .section-facts {
+                                        background-color: #F3EED9;
+                                        margin: 0px auto;
+                                        padding-top: 60px;
+                                        align-items: center;
+                                        text-align: center;
+                                    }
+                                    
+                                    .section-facts h3 {
+                                        margin-top: -15px;
+                                    }
+                                    
+                                    .section-facts p {
+                                        padding: 0px 25px;
+                                    }
+                                    
+                                    .section-facts .share {
+                                        padding: 30px;
+                                        text-align: center;
+                                    }
+                                    
+                                    .facts-img {
+                                        padding-top: 10px;
+                                        max-width: 70%;
+                                        margin: 0px auto;
+                                    }
+                                    /*-------home-page-gallery---------------*/
+                                    /*-------home-page-gallery---------------*/
+                                    
+                                    .home-gallery {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        max-width: 860px;
+                                        margin: 0px auto;
+                                        padding: 0px auto;
+                                        align-items: center;
+                                        padding: 10px;
+                                        margin-bottom: 90px;
+                                    }
+                                    
+                                    .home-gallery h2 {
+                                        color: white;
+                                        font-size: 22px;
+                                        letter-spacing: 1px;
+                                        font-weight: 400;
+                                        margin: 0px auto;
+                                        padding: 10px;
+                                    }
+                                    
+                                    .home-gallery p {
+                                        font-weight: 300;
+                                        margin: 0px 20px 10px 20px;
+                                        padding-bottom: 5px;
+                                        text-align: center;
+                                        color: white;
+                                    }
+                                    
+                                    .front-gallery {
+                                        max-width: 540px;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        margin: 10px auto;
+                                        padding: 0px auto;
+                                        align-items: center;
+                                    }
+                                    
+                                    .front-gallery:after {
+                                        content: "";
+                                        display: table;
+                                        clear: both;
+                                    }
+                                    
+                                    .frontImg {
+                                        max-width: 33%;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .modal-content {
+                                        max-width: 540px;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        justify-content: center;
+                                        margin: 20px auto;
+                                        background-image: linear-gradient(to bottom, #480404, #39070b, #2a080c, #1b0409, #000000);
+                                    }
+                                    
+                                    .slides-gallery {
+                                        max-width: 60%;
+                                        background-image: linear-gradient(to bottom, #480404, #39070b, #2a080c, #1b0409, #000000);
+                                        display: none;
+                                    }
+                                    
+                                    .slide-gallery-bottom {
+                                        max-width: 540px;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        margin: 0px auto;
+                                        justify-content: center;
+                                        padding: 0px 15px 20px;
+                                    }
+                                    
+                                    .slide-row {
+                                        max-width: 25%;
+                                    }
+                                    
+                                    .slide-row-bott {
+                                        opacity: 0.6;
+                                    }
+                                    
+                                    .slide-row-bott:hover {
+                                        opacity: 4;
+                                    }
+                                    
+                                    .slide-cursor {
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .modal {
+                                        display: none;
+                                        position: fixed;
+                                        z-index: 1;
+                                        padding-top: 140px;
+                                        left: 0;
+                                        top: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow: auto;
+                                        background-image: linear-gradient(to bottom, #480404, #39070b, #2a080c, #1b0409, #000000);
+                                    }
+                                    
+                                    .number {
+                                        color: #f2f2f2;
+                                        font-size: 12px;
+                                        padding: 10px 0px 0px 10px;
+                                        position: relative;
+                                        top: 120;
+                                        background-image: linear-gradient(to bottom, #480404, #39070b, #2a080c, #1b0409, #000000);
+                                    }
+                                    
+                                    .close {
+                                        color: white;
+                                        position: absolute;
+                                        top: 120px;
+                                        right: 15px;
+                                        font-size: 35px;
+                                        font-weight: bold;
+                                    }
+                                    
+                                    .close:hover,
+                                    .close:focus {
+                                        color: #999;
+                                        text-decoration: none;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .prev,
+                                    .next {
+                                        cursor: pointer;
+                                        position: absolute;
+                                        top: 240px;
+                                        width: auto;
+                                        color: white;
+                                        font-weight: 700;
+                                        font-size: 24px;
+                                        transition: 0.6s ease;
+                                        border-radius: 0 5px 5px 0;
+                                        user-select: none;
+                                        -webkit-user-select: none;
+                                    }
+                                    
+                                    .next {
+                                        right: 10px;
+                                        margin: 0px auto;
+                                        border-radius: 3px 0 0 3px;
+                                    }
+                                    
+                                    .prev {
+                                        left: 10px;
+                                        border-radius: 3px 0 0 3px;
+                                    }
+                                    
+                                    .prev:hover,
+                                    .next:hover {
+                                        padding: 5px 7px;
+                                        background-color: white;
+                                        opacity: 60%;
+                                        color: black;
+                                    }
+                                    /*-----------MAIN-ABOUT CURIOSITY-------*/
+                                    /*-----------MAIN-ABOUT CURIOS
+                                    /*-----------MAIN-ABOUT CURIOSITY-------*/
+                                    
+                                    .container-about {
+                                        margin: 0 auto;
+                                        padding: 0 auto;
+                                        justify-content: center;
+                                    }
+                                    
+                                    .about-content {
+                                        max-width: 1360px;
+                                        justify-content: center;
+                                        margin: -30 auto;
+                                        padding: 0 auto;
+                                    }
+                                    
+                                    .about-box {
+                                        max-width: 1360px;
+                                        padding: 5px 15px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                    }
+                                    
+                                    .about-desktop {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        margin: 0 auto;
+                                    }
+                                    
+                                    .about-style {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        margin: 0 auto;
+                                    }
+                                    
+                                    .about-curiosity {
+                                        background-color: #c0b3ad;
+                                    }
+                                    
+                                    .about-facts {
+                                        max-width: 1360px;
+                                        background-color: #a18d84;
+                                    }
+                                    
+                                    .about-mission {
+                                        background-color: #c0b3ad;
+                                    }
+                                    
+                                    .about-style h4 {
+                                        font-weight: 400;
+                                        opacity: 70%;
+                                    }
+                                    
+                                    .about-style h2 {
+                                        margin: -10px 0px -5px 0px;
+                                        border-bottom: 1px solid #2B181A;
+                                        padding-bottom: 5px;
+                                    }
+                                    
+                                    .about-text li {
+                                        font-size: 20px;
+                                        list-style: square;
+                                    }
+                                    
+                                    #goal {
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    #goal li {
+                                        font-size: 16px;
+                                        list-style-type: circle;
+                                        line-height: 1.6em;
+                                        font-weight: 400;
+                                        padding-left: 10px;
+                                    }
+                                    
+                                    .about-style p {
+                                        text-align: justify;
+                                    }
+                                    
+                                    #author {
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        font-style: italic;
+                                        font-weight: 400;
+                                        justify-content: flex-end;
+                                        padding: 0px auto;
+                                    }
+                                    
+                                    #author a {
+                                        margin-left: 7px;
+                                    }
+                                    
+                                    .about-gallery {
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin: 0 auto;
+                                        padding: 0px;
+                                    }
+                                    
+                                    .about-image {
+                                        margin-bottom: 7px;
+                                        -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+                                        -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+                                        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+                                    }
+                                    
+                                    .social-share {
+                                        text-align: right;
+                                        padding-right: 5px;
+                                        padding-bottom: 15px;
+                                    }
+                                    
+                                    .social-share h4 {
+                                        padding-right: 5px;
+                                        margin-bottom: 7px;
+                                    }
+                                    
+                                    .social-icons a {
+                                        padding: 0 .3em;
+                                    }
+                                    
+                                    .social-icons i {
+                                        color: #0068DA;
+                                        font-size: 24px;
+                                        margin: 0 auto;
+                                    }
+                                    /*-----------row-data-page---------------------------*/
+                                    
+                                    .row-data-gallery {
+                                        overflow: hidden;
+                                        /*!IMPORTANT */
+                                    }
+                                    
+                                    .row-banner-mobil {
+                                        max-width: 600px;
+                                    }
+                                    
+                                    .row-data-content {
+                                        max-width: 1360px;
+                                        width: 100%;
+                                        color: black;
+                                        background-color: #F3EED9;
+                                        margin: 0px auto;
+                                        justify-content: center;
+                                        padding: 50px 20px;
+                                    }
+                                    
+                                    .row-data-text {
+                                        margin-top: -45px;
+                                    }
+                                    
+                                    .row-data-content h2 {
+                                        margin-top: -10px;
+                                        border-bottom: 1px solid rgb(190, 190, 190);
+                                        padding-bottom: 5px;
+                                    }
+                                    
+                                    .row-data-content p {
+                                        font-weight: 300;
+                                    }
+                                    /*-----------row-data-page-gallery------*/
+                                    
+                                    #row-gallery {
+                                        max-width: 1360px;
+                                        margin: 0px 0px;
+                                        background: url(images/background-mobil.jpg) rgba(53, 22, 40, 0.3);
+                                        background-size: cover;
+                                        background-blend-mode: multiply;
+                                        background-repeat: no-repeat;
+                                        background-attachment: fixed;
+                                        background-position: cover;
+                                        background-size: 100%;
+                                        color: white;
+                                        padding-top: 30px;
+                                        text-align: center;
+                                    }
+                                    
+                                    .row-data-gallery {
+                                        max-width: 1360px;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        justify-content: center;
+                                        padding: 10px;
+                                        margin: 0px 0px;
+                                    }
+                                    
+                                    .card-info-row {
+                                        max-width: 300px;
+                                        text-align: center;
+                                        justify-content: center;
+                                        padding: 10px;
+                                        background-color: #F3EED9;
+                                        border-radius: 10px;
+                                        transition: 0.5s ease;
+                                        cursor: pointer;
+                                        margin: 10px;
+                                        color: black;
+                                    }
+                                    
+                                    .image-row-data {
+                                        display: block;
+                                        width: 280px;
+                                        height: 220px;
+                                    }
+                                    
+                                    .details {
+                                        display: none;
+                                    }
+                                    
+                                    .card-name {
+                                        font-size: 18px;
+                                        letter-spacing: 3px;
+                                        font-weight: 600;
+                                        text-align: center;
+                                    }
+                                    
+                                    .card-h3 {
+                                        font-size: 16px;
+                                    }
+                                    
+                                    .card-btn {
+                                        background-color: #ff5955;
+                                        border: none;
+                                        color: white;
+                                        padding: 10px 40px;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        display: inline-block;
+                                        font-size: 16px;
+                                        outline: none;
+                                        margin: 20px auto;
+                                        -webkit-box-shadow: 0 6px 4px -4px black;
+                                        -moz-box-shadow: 0 6px 4px -4px black;
+                                        box-shadow: 0 6px 4px -4px black;
+                                    }
+                                    
+                                    .card-status {
+                                        color: #ff5955;
+                                        letter-spacing: 2px;
+                                    }
+                                    
+                                    .card-info-row span {
+                                        font-size: 18px;
+                                        margin-right: 20px;
+                                    }
+                                    
+                                    .hidden {
+                                        display: none;
+                                    }
+                                    /*---------ERROR-----*/
+                                    /*---------contact--------*/
+                                    
+                                    #contact-page h1 {
+                                        padding-top: 100px;
+                                    }
+                                    
+                                    .form-group h6 {
+                                        margin-bottom: -20px;
+                                        text-align: left;
+                                        padding: 0px 0px 5px 15px;
+                                    }
+                                    
+                                    .contact {
+                                        background-color: rgb(204, 190, 184);
+                                        max-width: 900px;
+                                        padding: 20px 5px;
+                                        margin: 30px auto;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        justify-content: center;
+                                        text-align: center;
+                                    }
+                                    
+                                    #contact-form h3 {
+                                        text-align: center;
+                                        line-height: 0.7em;
+                                    }
+                                    
+                                    #contact-form {
+                                        width: 300px;
+                                        background-color: rgb(185, 174, 169);
+                                        padding: 10px 0px;
+                                        margin: 0px auto;
+                                    }
+                                    
+                                    .contact-info {
+                                        width: 300px;
+                                        margin: 0px auto;
+                                        padding-top: 20px;
+                                    }
+                                    
+                                    .form-control {
+                                        width: 280px;
+                                        padding: 10px;
+                                        margin: 20px 0px;
+                                    }
+                                    
+                                    #message {
+                                        height: 100px;
+                                    }
+                                    
+                                    #messageError {
+                                        margin-bottom: 40px;
+                                    }
+                                    
+                                    .form-error {
+                                        color: red;
+                                        margin: -15px 0px 10px 0px;
+                                        display: none;
+                                        text-align: left;
+                                        padding: 10px 20px;
+                                    }
+                                    
+                                    #answer {
+                                        width: 200px;
+                                        height: 100px;
+                                    }
+                                    /*--------------------------*/
+                                    
+                                    .error {
+                                        border: 1px solid red;
+                                        color: red;
+                                        background: rgb(207, 207, 207);
+                                        padding: 1em;
+                                    }
+                                    
+                                    .error:after {
+                                        content: "An error occurred.";
+                                    }
+                                    /*__________________FOOTER___________________*/
+                                    
+                                    #footer {
+                                        max-width: 1360px;
+                                        margin: 0px auto;
+                                        padding: 10px auto;
+                                        background-image: linear-gradient(to bottom, #491616, #39070b, #2a080c, #1b0409, #000000);
+                                        padding-bottom: 20px;
+                                    }
+                                    
+                                    #footer .footer-content {
+                                        max-width: 1360px;
+                                        display: flex;
+                                        flex-flow: wrap;
+                                        justify-content: center;
+                                    }
+                                    
+                                    #footer .footer_box-style {
+                                        max-width: 400px;
+                                        padding: 0px 10px;
+                                        height: auto;
+                                        margin: 10px 20px;
+                                        text-align: center;
+                                    }
+                                    
+                                    #email {
+                                        width: 280px;
+                                        border: 1px solid #ff5955;
+                                        background: rgb(255, 255, 255);
+                                        margin: 0px 0px 20px 0px;
+                                        padding: 10px;
+                                        font-size: 16px;
+                                    }
+                                    
+                                    #newsletter-form {
+                                        background-image: linear-gradient(to bottom, #491616, #39070b, #2a080c, #1b0409, #000000);
+                                        border: none;
+                                    }
+                                    
+                                    #newsletter-form input {
+                                        padding: 10px 50px;
+                                        margin: 10px;
+                                        padding-left: -8px;
+                                        border: none;
+                                    }
+                                    
+                                    #footer h3 {
+                                        font-size: 18px;
+                                        font-weight: 400;
+                                        text-align: center;
+                                        color: white;
+                                    }
+                                    
+                                    #footer a {
+                                        color: #ff5955;
+                                        font-size: 18px;
+                                        font-weight: 300;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    #footer a i {
+                                        font-size: 35px;
+                                        padding: 0px 10px;
+                                    }
+                                    
+                                    #footer .footer-content a:hover {
+                                        color: #F3EED9;
+                                        text-decoration: underline;
+                                    }
+                                    
+                                    #footer .footer_icon_link i:hover {
+                                        font-size: 50px;
+                                        color: #F3EED9;
+                                    }
+                                    
+                                    .footer-links {
+                                        align-items: center;
+                                        margin: 0px 0px;
+                                    }
+                                    
+                                    .footer-links-click {
+                                        max-width: 300px;
+                                        line-height: 2.1em;
+                                        display: flex;
+                                        flex-direction: column;
+                                        text-align: center;
+                                    }
+                                    
+                                    #copyright {
+                                        border-top: 0.4px solid rgb(255, 191, 191);
+                                        padding: 10px 15px;
+                                        text-align: center;
+                                    }
+                                    
+                                    #copyright p {
+                                        font-size: 14px;
+                                        word-spacing: 2px;
+                                        padding-top: 10px;
+                                        margin: 0px;
+                                        text-align: center;
+                                        color: white;
+                                    }
+                                    
+                                    #copyright a {
+                                        color: rgb(99, 99, 241);
+                                        font-size: 15px;
+                                        margin: 0px auto;
+                                    }
+                                    /*_________________FOOTER-END_________________*/
+                                    
+                                    @media only screen and (min-width:375px) {
+                                        .header-content {
+                                            height: 100px;
+                                        }
+                                        .logo {
+                                            max-width: 13%;
+                                        }
+                                        #banner:after {
+                                            margin: -130px 0px;
+                                            height: 140px;
+                                        }
+                                        .img-intro-index {
+                                            width: 160px;
+                                            height: 150px;
+                                        }
+                                        .index h2 {
+                                            font-size: 24px;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (min-width:460px) {
+                                        #banner:after {
+                                            margin: -130px 0px;
+                                            height: 150px;
+                                        }
+                                        #text-banner {
+                                            margin-top: -170px;
+                                        }
+                                        .arrow-scroll {
+                                            max-width: 4%;
+                                        }
+                                        .intro-index {
+                                            margin-top: 0px;
+                                            padding-top: 50px;
+                                        }
+                                        .img-intro-index {
+                                            width: 180px;
+                                            height: 170px;
+                                            padding: 10px;
+                                        }
+                                        .next {
+                                            right: 20px;
+                                        }
+                                        .prev {
+                                            left: 20px;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (min-width:540px) {
+                                        /*----------HEADER-------*/
+                                        .header-content {
+                                            height: 110px;
+                                        }
+                                        .page-next {
+                                            top: 110px;
+                                        }
+                                        .top-nav .icon-menu i {
+                                            font-size: 35px;
+                                            padding: 0px 10px 0px 0px;
+                                        }
+                                        .logo {
+                                            max-width: 12%;
+                                        }
+                                        .logo-tittle-nasa {
+                                            font-size: 19px;
+                                            margin-left: 3px;
+                                        }
+                                        .logo-tittle-curiosity {
+                                            font-size: 23px;
+                                            letter-spacing: 1px;
+                                            margin-left: 3px;
+                                        }
+                                        #navbar {
+                                            margin-top: 4px;
+                                        }
+                                        #navbar a {
+                                            font-size: 18px;
+                                        }
+                                        .page-name-flex a {
+                                            font-size: 20px;
+                                        }
+                                        #banner:after {
+                                            margin: -170px 0px;
+                                            height: 160px;
+                                        }
+                                        #text-banner {
+                                            margin-top: -170px;
+                                        }
+                                        .arrow-scroll {
+                                            max-width: 4%;
+                                        }
+                                        .img-intro-index {
+                                            width: 220px;
+                                            height: 210px;
+                                            padding: 20px;
+                                        }
+                                        /*----------HEADER-------*/
+                                        h1 {
+                                            font-size: 28px;
+                                        }
+                                        h4 {
+                                            font-size: 16px;
+                                        }
+                                        h3 {
+                                            font-size: 20px;
+                                        }
+                                        h2 {
+                                            font-size: 24px;
+                                            font-weight: 500;
+                                        }
+                                        p {
+                                            font-size: 18px;
+                                        }
+                                        /*-----------home-timeline----*/
+                                        .timeline-data {
+                                            display: flex;
+                                            flex-direction: row;
+                                            margin: 0px auto;
+                                            justify-content: center;
+                                        }
+                                        .timeline-row {
+                                            padding: 0px 10px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            margin-top: -15px;
+                                        }
+                                        .timeline-row h3 {
+                                            padding: 0px 20px;
+                                            margin-top: -10px;
+                                        }
+                                        /*-----------home-weather----*/
+                                        .data-weather {
+                                            padding-top: 40px;
+                                        }
+                                        .text-weather {
+                                            padding-top: 50px;
+                                        }
+                                        .text-weather h2 {
+                                            font-size: 38px;
+                                        }
+                                        .data-weather h2 {
+                                            font-size: 36px;
+                                        }
+                                        .data-weather h4 {
+                                            font-size: 24px;
+                                        }
+                                        .data-weather p {
+                                            font-size: 20px;
+                                        }
+                                        /*-----------prev-next-gallery----*/
+                                        .next {
+                                            right: 30px;
+                                        }
+                                        .prev {
+                                            left: 30px;
+                                        }
+                                        .close {
+                                            top: 130px;
+                                            right: 50px;
+                                        }
+                                        /*-----------ABOUT PAGE------*/
+                                        .about-content {
+                                            justify-content: center;
+                                            margin: 0 auto;
+                                        }
+                                        .about-style {
+                                            padding: 5px;
+                                        }
+                                        .about-gallery {
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: center;
+                                        }
+                                        .about-image {
+                                            width: 250px;
+                                            height: 150px;
+                                            margin: 5px;
+                                        }
+                                        .author {
+                                            float: right;
+                                        }
+                                        /*--------row-data-page------*/
+                                        .row-data {
+                                            margin-top: -350px;
+                                        }
+                                        .row-banner-mobil {
+                                            visibility: hidden;
+                                        }
+                                        .banner-row-data {
+                                            max-width: 1360px;
+                                            background-image: url("images/about-3.jpg");
+                                            background-repeat: no-repeat;
+                                            background-attachment: fixed;
+                                            background-position: center center;
+                                            height: 200px;
+                                            -webkit-background-size: cover;
+                                            -moz-background-size: cover;
+                                            -o-background-size: cover;
+                                            background-size: cover;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (min-width:650px) {
+                                        .logo {
+                                            max-width: 12%;
+                                        }
+                                        .page-next a {
+                                            font-size: 18px;
+                                        }
+                                        h1 {
+                                            font-size: 26px;
+                                        }
+                                        .quotes-noble h5 {
+                                            padding-left: 300px;
+                                        }
+                                        /*------------------*/
+                                        #page-name {
+                                            padding: 0px 0px;
+                                        }
+                                        .page-flex-title {
+                                            display: flex;
+                                            flex-direction: row;
+                                            padding: 50px;
+                                            justify-content: center;
+                                        }
+                                        .page-name-flex {
+                                            border-left: 1px solid #fa9c9a;
+                                            display: flex;
+                                            flex-direction: column;
+                                            padding: 0px 0px;
+                                        }
+                                        .page-name-flex a {
+                                            font-size: 20px;
+                                            margin-left: 15px;
+                                            line-height: 2.1em;
+                                            text-align: left;
+                                        }
+                                        #page-name h1 {
+                                            margin: 0px 0px;
+                                            font-size: 30px;
+                                            top: 0px;
+                                            padding-right: 20px;
+                                        }
+                                        #banner:after {
+                                            margin: -140px 0px;
+                                            height: 220px;
+                                        }
+                                        #text-banner {
+                                            margin-top: -240px;
+                                        }
+                                        .arrow-scroll {
+                                            max-width: 3%;
+                                        }
+                                        .intro-index {
+                                            max-width: 700px;
+                                            padding-top: 120px;
+                                        }
+                                        .intro-index h4 {
+                                            font-size: 18px;
+                                            margin-top: -10px;
+                                        }
+                                        /*-----------prev-next-gallery----*/
+                                        .next {
+                                            right: 130px;
+                                        }
+                                        .prev {
+                                            left: 130px;
+                                        }
+                                        .close {
+                                            top: 140px;
+                                            right: 100px;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (min-width:768px) {
+                                        .header-content {
+                                            height: 130px;
+                                        }
+                                        .top-nav .icon-menu i {
+                                            font-size: 50px;
+                                        }
+                                        #navbar {
+                                            margin-top: 15px;
+                                        }
+                                        .page-next {
+                                            top: 130px;
+                                        }
+                                        .page {
+                                            margin: 0 auto;
+                                        }
+                                        #page-name {
+                                            margin-top: 160px;
+                                        }
+                                        /*--------home-page----*/
+                                        .intro-index {
+                                            max-width: 860px;
+                                            margin-bottom: 30px;
+                                            border-radius: 2px;
+                                        }
+                                        .img-intro-index {
+                                            width: 320px;
+                                            height: 310px;
+                                            padding: -40px 0px;
+                                            margin-top: -40px;
+                                        }
+                                        /*---------timeline-home--------*/
+                                        .timeline-row {
+                                            padding: 0px 50px;
+                                        }
+                                        .section-facts p {
+                                            padding: 0px 70px;
+                                            text-align: center;
+                                        }
+                                        /*-----------about-page-------*/
+                                        .about-box {
+                                            padding: 0px auto;
+                                            margin: 0 auto;
+                                        }
+                                        .about-style {
+                                            padding: 0px auto;
+                                        }
+                                        .about-desktop {
+                                            max-width: 1360px;
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: center;
+                                            margin: 0 auto;
+                                        }
+                                        .about-text {
+                                            max-width: 400px;
+                                        }
+                                        .about-gallery {
+                                            max-width: 600px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            margin: 0px auto;
+                                            justify-content: center;
+                                            padding: 30px 0px 10px 25px;
+                                        }
+                                        .about-image {
+                                            width: 350px;
+                                            height: 200px;
+                                            margin: 0px;
+                                        }
+                                        .social-share {
+                                            text-align: center;
+                                            padding-right: 5px;
+                                        }
+                                        .back-about-intro {
+                                            background-image: url("images/about-2.jpg");
+                                            background-repeat: no-repeat;
+                                            background-attachment: fixed;
+                                            background-position: right;
+                                            background-size: 470px 270px;
+                                            height: 200px;
+                                            box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+                                        }
+                                        .back {
+                                            width: 350px;
+                                            height: 200px;
+                                            justify-content: center;
+                                        }
+                                        .back-about-facts {
+                                            background-image: url("images/about-5.jpg");
+                                            background-repeat: no-repeat;
+                                            background-attachment: fixed;
+                                            background-position: center center;
+                                            background-size: 870px 400px;
+                                            height: 200px;
+                                            box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+                                        }
+                                        .back-about-mission {
+                                            background-image: url("images/about-8.jpg");
+                                            background-repeat: no-repeat;
+                                            background-attachment: fixed;
+                                            background-position: center center;
+                                            background-size: 770px 310px;
+                                            height: 200px;
+                                            box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+                                        }
+                                        /*-------GALLERY--------*/
+                                        .cardContent:hover {
+                                            transform: scale(1.1);
+                                            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+                                            margin: 10px;
+                                        }
+                                        /*-------contact-------*/
+                                        #contact-form {
+                                            width: 400px;
+                                            background-color: rgb(185, 174, 169);
+                                            padding: 10px 0px;
+                                            margin: 0px auto;
+                                        }
+                                        .contact-info {
+                                            width: 350px;
+                                            margin: 0px auto;
+                                            padding-top: -10px;
+                                        }
+                                        .form-control {
+                                            width: 350px;
+                                            margin: 15px 0px;
+                                            border: 1px solid #260101;
+                                            margin-bottom: 40px;
+                                        }
+                                        .form-group h6 {
+                                            margin-bottom: -10px;
+                                            padding: 0px 0px 0px 27px;
+                                        }
+                                        .close {
+                                            right: 190px;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (min-width:850px) {
+                                        .header-content {
+                                            height: 150px;
+                                        }
+                                        .page-next {
+                                            top: 150px;
+                                        }
+                                        .page-next a {
+                                            font-size: 18px;
+                                        }
+                                        .top-nav .icon-menu i {
+                                            padding-top: 15px;
+                                        }
+                                        .quotes h5 {
+                                            text-align: right;
+                                            padding-right: 100px;
+                                        }
+                                        .logo-tittle-nasa {
+                                            font-size: 22px;
+                                        }
+                                        .logo-tittle-curiosity {
+                                            font-size: 34px;
+                                        }
+                                        .media-icon-link a {
+                                            font-size: 16px;
+                                        }
+                                        .page-name-flex a {
+                                            font-size: 22px;
+                                        }
+                                        #page-name h1 {
+                                            font-size: 34px;
+                                        }
+                                        #banner:after {
+                                            margin: -160px 0px;
+                                            height: 230px;
+                                        }
+                                        #text-banner {
+                                            margin-top: -260px;
+                                        }
+                                        .arrow-scroll {
+                                            max-width: 3%;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (min-width:992px) {
+                                        h6 {
+                                            font-size: 17px;
+                                        }
+                                        h3 {
+                                            font-size: 19px;
+                                        }
+                                        h2 {
+                                            font-size: 28px;
+                                            font-weight: 500;
+                                        }
+                                        h1 {
+                                            font-size: 36px;
+                                            word-spacing: 5px;
+                                        }
+                                        p {
+                                            font-size: 18px;
+                                            line-height: 1.8em;
+                                        }
+                                        a {
+                                            font-size: 18px;
+                                        }
+                                        li {
+                                            font-size: 19px;
+                                        }
+                                        /*-----------ABOUT PAGE-----*/
+                                        .quotes {
+                                            font-size: 18px;
+                                            line-height: 1.8em;
+                                        }
+                                        #banner {
+                                            padding-bottom: 150px;
+                                        }
+                                        #banner:after {
+                                            margin: -190px 0px;
+                                            height: 330px;
+                                        }
+                                        #text-banner {
+                                            margin-top: -350px;
+                                        }
+                                        .arrow-scroll {
+                                            max-width: 3%;
+                                        }
+                                        #text-banner h4 {
+                                            font-size: 26px;
+                                        }
+                                        .text-banner-under {
+                                            margin-top: -50px;
+                                        }
+                                        .border-white {
+                                            width: 220px;
+                                            padding-right: 10px;
+                                        }
+                                        /*__________________*/
+                                        .about-box {
+                                            padding: 0px auto;
+                                            margin: 0 auto;
+                                        }
+                                        .about-style {
+                                            padding: 0px auto;
+                                        }
+                                        .about-desktop {
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: center;
+                                            margin: 0 auto;
+                                        }
+                                        .about-text {
+                                            max-width: 500px;
+                                        }
+                                        .about-gallery {
+                                            max-width: 600px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            margin: 0px auto;
+                                            justify-content: center;
+                                            padding: 30px 0px 10px 25px;
+                                        }
+                                        .about-image {
+                                            width: 400px;
+                                            height: 240px;
+                                            margin: 0px;
+                                        }
+                                        .social-share {
+                                            text-align: center;
+                                            padding-right: 5px;
+                                        }
+                                        .back-about-intro {
+                                            background-image: url("images/about-2.jpg");
+                                            background-repeat: no-repeat;
+                                            background-attachment: fixed;
+                                            background-position: right;
+                                            background-size: 870px 400px;
+                                            box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+                                            height: 240px;
+                                        }
+                                        .back {
+                                            width: 400px;
+                                            height: 240px;
+                                            justify-content: center;
+                                        }
+                                        .back-about-facts {
+                                            background-image: url("images/about-5.jpg");
+                                            background-repeat: no-repeat;
+                                            background-attachment: fixed;
+                                            background-position: center center;
+                                            background-size: 970px 500px;
+                                            box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+                                            height: 240px;
+                                        }
+                                        .back-about-mission {
+                                            background-image: url("images/about-8.jpg");
+                                            background-repeat: no-repeat;
+                                            background-attachment: fixed;
+                                            background-position: center center;
+                                            background-size: 970px 410px;
+                                            box-shadow: 0 8px 6px -6px rgba(0, 0, 0);
+                                            height: 240px;
+                                        }
+                                        .close {
+                                            right: 190px;
+                                            top: 170px;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (min-width:1024px) {
+                                        .logo {
+                                            max-width: 11%;
+                                        }
+                                        h1 {
+                                            font-size: 36px;
+                                        }
+                                        .page-name-flex a {
+                                            font-size: 22px;
+                                        }
+                                        #navbar {
+                                            margin-top: 11px;
+                                        }
+                                        #banner h1 {
+                                            font-size: 36px;
+                                        }
+                                        #banner:after {
+                                            width: 1024px;
+                                            margin: -240px 0px;
+                                            height: 360px;
+                                        }
+                                        /*-----------prev-next-gallery----*/
+                                        .next {
+                                            right: 150px;
+                                        }
+                                        .prev {
+                                            left: 150px;
+                                        }
+                                        .close {
+                                            right: 280px;
+                                        }
+                                        /*-----------MAIN-ABOUT CURIOSITY-------*/
+                                    }
+                                    
+                                    @media only screen and (min-width:1180px) {
+                                        .logo {
+                                            max-width: 10%;
+                                        }
+                                        .header-content {
+                                            height: 160px;
+                                        }
+                                        .page-next {
+                                            top: 160px;
+                                        }
+                                        #navbar {
+                                            margin-top: 2px;
+                                        }
+                                        .intro-index {
+                                            padding: 10px 40px;
+                                            padding-top: 40px;
+                                        }
+                                        .img-intro-index {
+                                            width: 440px;
+                                            height: 430px;
+                                            padding-top: -120px;
+                                            margin-top: -40px;
+                                            margin-right: -100px;
+                                            left: 200px;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (min-width:1360px) {
+                                        h1 {
+                                            font-size: 50px;
+                                        }
+                                        #banner:after {
+                                            margin: -240px 0px;
+                                            height: 350px;
+                                        }
+                                        #text-banner {
+                                            margin-top: -380px;
+                                        }
+                                        .arrow-scroll {
+                                            max-width: 2%;
+                                            padding-top: 30px;
+                                        }
+                                        .img-intro-index {
+                                            width: 480px;
+                                            height: 480px;
+                                            margin-right: -240px;
+                                        }
+                                        .intro-index {
+                                            padding-top: 80px;
+                                            text-align: left;
+                                        }
+                                        .intro-index .btn-content {
+                                            margin-top: 40px;
+                                        }
+                                        .intro-index h2 {
+                                            font-size: 30px;
+                                        }
+                                        /*-----------prev-next-gallery----*/
+                                        .next {
+                                            right: 450px;
+                                        }
+                                        .prev {
+                                            left: 450px;
+                                        }
+                                        .close {
+                                            right: 450px;
+                                            top: 150px;
+                                        }
+                                    }
