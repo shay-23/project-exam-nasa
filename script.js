@@ -41,7 +41,7 @@ form.addEventListener("submit", validateForm);
 
 /*-----------------api-row-data------------*/
 
-const WeatherApi = `https://api.nasa.gov/insight_weather/?api_key=OHEbI7rTkhvwIuzGPAUuwvezPdwKXaxcbU0CDoSI&feedtype=json&ver=1.0`;
+
 
 function displayApiNasa(card) {
     const container = document.querySelector(".row-data-gallery");

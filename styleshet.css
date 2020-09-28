@@ -112,6 +112,10 @@
                                         list-style: none;
                                     }
                                     
+                                    a:hover {
+                                        color: #16228b;
+                                    }
+                                    
                                     li {
                                         list-style: none;
                                         font-family: lato, georgia, "sans-serif";
@@ -165,6 +169,12 @@
                                     .btn-content:hover,
                                     .btn-contact:hover {
                                         background-color: #af3937;
+                                    }
+                                    
+                                    input {
+                                        -webkit-appearance: none;
+                                        -moz-appearance: none;
+                                        appearance: none;
                                     }
                                     /*___________________BACK-TO TOP______________________*/
                                     
