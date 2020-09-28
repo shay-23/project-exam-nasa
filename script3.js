@@ -19,12 +19,7 @@ function displaySelectedSol(sols) {
     currentSolElement.innerHTML = selectedSol.sol
     curTempHigh.innerHTML = selectedSol.maxTemp
     curTempLow.innerHTML = selectedSol.minTemp
-
-
 }
-
-
-
 
 
 function getWeatherApi() {
@@ -34,8 +29,6 @@ function getWeatherApi() {
                 sol_keys,
                 validity_checks,
                 ...solData
-
-
             } = data
             return Object.entries(solData).map(([sol, data]) => {
                 return {
@@ -45,7 +38,6 @@ function getWeatherApi() {
                     date: new Date(data.First_UTC)
                 }
             })
-
         })
         .catch(function(error) {
             console.log(error + "Something is wrong");
