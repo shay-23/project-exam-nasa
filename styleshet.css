@@ -293,6 +293,14 @@
                                         color: white;
                                     }
                                     
+                                    .logo-tittle a {
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .logo-tittle a:hover {
+                                        color: rgb(101, 101, 172);
+                                    }
+                                    
                                     .top-nav .icon-menu {
                                         text-decoration: none;
                                         display: block;
