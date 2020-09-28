@@ -128,6 +128,14 @@
                                         font-weight: 500;
                                     }
                                     
+                                    .top-nav .icon-menu i:hover {
+                                        color: white;
+                                    }
+                                    
+                                    .page-name-flex a:hover {
+                                        color: white;
+                                    }
+                                    
                                     .logo {
                                         display: block;
                                         max-width: 17%;
