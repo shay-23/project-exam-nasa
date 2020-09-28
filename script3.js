@@ -5,6 +5,7 @@ const WeatherApi = `https://api.nasa.gov/insight_weather/?api_key=OHEbI7rTkhvwIu
 const currentSolElement = document.querySelector(`[data-number]`)
 const curTempHigh = document.querySelector(`[data-temp-high]`)
 const curTempLow = document.querySelector(`[data-temp-low]`)
+const curSolDate = document.querySelector(`[sol-date]`)
 
 let selectedSolIndex
 
@@ -18,7 +19,10 @@ function displaySelectedSol(sols) {
     currentSolElement.innerHTML = selectedSol.sol
     curTempHigh.innerHTML = selectedSol.maxTemp
     curTempLow.innerHTML = selectedSol.minTemp
+
+
 }
+
 
 
 
